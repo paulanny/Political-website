@@ -1,0 +1,113 @@
+*       {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.votendimg   {
+    
+   display: flex;
+   display: relative;
+   background-color: rgba(22, 29, 22, 1);
+   z-index: 1;
+   height: 750px;
+   margin-top: 170px;
+
+    
+}
+
+
+
+.vote       {
+    position: absolute;
+    margin-top: 50px;
+    left: 0;
+    margin-left: 70px;
+    /* background-color: black; */
+    color: white;
+    line-height: 70px;
+   
+}
+
+.vote h5    {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.25);
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+    
+.vote h4    {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.vote h3    {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.vote h2    {
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+
+.review     {
+    width: 30%;
+    margin-top: 420px;
+    margin-left: 70px;
+}
+
+.remarks       {
+    margin-left: 40px;
+    /* margin-top: -40px; */
+    text-align: left;
+    color: white;
+    line-height: 26px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.first-quote    {
+      color: rgba(255, 255, 255, 0.1);
+      font-size: 30px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 70px;
+      /* margin-top: 60px; */
+}
+
+.second-quote    {
+      color: rgba(255, 255, 255, 0.1);
+      font-size: 30px;
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 70px;
+     text-align: right;
+}
+
+
+.research   {
+    margin-top:-180px
+}
+
+.votendimg img  {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    margin-top: -160px;
+    margin-right: 40px;
+    /* background-color: black; */
+}

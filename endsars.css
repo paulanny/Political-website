@@ -1,0 +1,43 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.endsarsspirit img  {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.endsarsspirit .endsarstexts   {
+    position: relative;
+    margin: -550px 30px 0 auto;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    padding:0 20px 0 60px ;
+
+}
+
+.endsarstexts h3     {
+    background-color: #161D16;
+    text-align: left;
+    color: white;
+    padding: 12px;
+    margin-top: 50px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+
+.endsarstexts  .endsarsred  {
+    color: rgba(234, 0, 40, 1);
+    font-weight: 700;
+    /* font-family: 'Inter', sans-serif; */
+
+}
+.endsarstexts h3:nth-of-type(1)     {
+    width: 70%;
+}

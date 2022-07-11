@@ -1,0 +1,154 @@
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.abtdonate   {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    align-items: center;
+
+}
+
+.aboutourparty  {
+    flex-direction: column; 
+    width: 22%;
+    /* align-content: center; */
+    /* padding: 0 50px; */
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    margin: auto;
+}
+
+.aboutourparty img  {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+    /* margin-left: -220px; */
+}
+
+.aboutourparty h4   {
+    margin-bottom: 20px;
+    /* margin-left: -200px; */
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(22, 29, 22, 1);
+
+}
+
+.aboutourparty p:nth-of-type(2)   {
+    margin-bottom: 20px;
+    /* width: 60%; */
+    text-align: left;
+    /* margin-left: -22px; */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(22, 29, 22, 1);
+
+}
+
+.aboutourparty p:nth-of-type(1) {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(22, 29, 22, 0.5);
+}
+
+.aboutourparty button       {
+    width:50%;
+    text-align: center;
+    padding: 7px;
+    /* margin-left: -170px; */
+}
+
+
+.Ivoted     {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.Ivoted img     {
+    width: 40%;
+    height: auto;
+}
+
+.ivotetexts     {
+    width: 50%;
+}
+
+.ivotetexts h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 56px;
+    line-height: 71px;
+    font-weight: 700;
+    font-style: normal;
+    /* margin: 0 0 50px 0; */
+    color: #161D16;
+}
+
+
+.aboutourparty .learn   {
+    width:60%;
+    text-align: center;
+    padding: 7px;
+    color: rgba(248, 200, 36, 1);
+    background-color: transparent;
+    border: 2px solid rgba(248, 200, 36, 1);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+
+.aboutourparty .join    {
+    width:60%;
+    text-align: center;
+    padding: 7px;
+    color: rgba(234, 0, 40, 1);
+    background-color: transparent;
+    border: 2px solid rgba(234, 0, 40, 1);
+    ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.aboutourparty .make   {
+    width:60%;
+    text-align: center;
+    padding: 7px;
+    color: rgba(0, 87, 8, 1);
+    background-color: transparent;
+    border: 2px solid rgba(0, 87, 8, 1);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.ivotetexts h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 64px;
+    line-height: 82px;
+    font-weight: 700;
+    font-style: normal;
+    /* margin-right: -185px; */
+    /* padding: 0px 0px 0 20px; */
+    margin-top: 70px;
+    color: #161D16;
+    /* width: 55%; */
+}
+
+h1 .pressy  {
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(22, 29, 22, 1) ;
+}

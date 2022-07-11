@@ -1,0 +1,109 @@
+*       {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header  {
+    position: relative;
+}
+
+nav {
+    /* background-color: red; */
+    align-items: center;
+    /* justify-content: center; */
+    /* width: 100%;
+    flex-direction: column; */
+    display: flex;
+    padding: 50px;
+    
+   
+
+}
+
+nav img  {
+    height: 80px;
+    width: 80px;
+}
+
+.words {
+    display: flex;
+    margin-right: 35em;
+    /* gap: 30px; */
+    
+
+}
+
+.icons button  {
+    width: 100px;
+    text-align: center;
+    padding: 12px;
+    background-color:#EA0028;
+    border: 1px solid #EA0028;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+ a     {
+    padding: 10px;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.icons      {
+    margin-right: 50px;
+    position: absolute;
+    right: 0;
+    gap: 10px;
+    /* display: flex; */
+    cursor: pointer;
+
+}
+
+.heroimage  {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.icons .fa     {
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 16px;
+    -webkit-text-stroke: white 0.5px;
+    color: transparent;
+    
+}
+
+
+
+header h2      {
+    margin: 100px auto 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    width: 80%;
+    font-size: 96px;
+    color: white;
+    line-height: 122px;
+   
+
+}
+
+h2 .change  {
+    -webkit-text-stroke: white 3px;
+    color: transparent;
+}
