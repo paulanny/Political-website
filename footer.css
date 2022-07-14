@@ -41,3 +41,25 @@ footer  {
     color: rgba(22, 29, 22, 1);
     cursor: pointer;
 }
+
+
+
+@media (min-width:350px) and (max-width:800px) {
+
+    .socials .fa    {
+        padding: 20px 20px;
+        font-size: 16px;
+        -webkit-text-stroke: 1px rgba(22, 29, 22, 1);
+        color: transparent;
+        cursor: pointer;
+    }
+
+    .endtexts p {
+        padding: 0 20px;
+        font-size: 14px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        color: rgba(22, 29, 22, 1);
+        cursor: pointer;
+    }
+}

@@ -12,7 +12,7 @@
    background-color: rgba(22, 29, 22, 1);
    z-index: 1;
    height: 750px;
-   margin-top: 170px;
+   margin-top: 110px;
 
     
 }
@@ -107,7 +107,154 @@
     position: absolute;
     z-index: 1;
     right: 0;
-    margin-top: -160px;
-    margin-right: 40px;
+    margin-top: -180px;
+    margin-right: 0px;
+    width: 505px;
+    height: 749px; 
     /* background-color: black; */
+}
+
+ .research img  {
+    /* position: absolute;
+    z-index: 1;
+    right: 0; */
+    margin-top: -380px;
+    margin-right: 40px;
+    /* background-color: black;*/ 
+} 
+
+
+@media (max-width:800px) and (min-width:350px)
+{
+    .votendimg   {
+    
+        display: block;
+        position: relative;
+        background-color: rgba(22, 29, 22, 1);
+        z-index: 1;
+        height: 1184px;
+        margin-top: 178px;
+        /* justify-content: center;
+        align-items: center;
+        margin: auto; */
+     
+         
+     }
+
+     .votendimg img  {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        margin: -255px -15px 0 auto;
+        justify-content: center;
+        align-items: center;
+        /* display: flex; */
+        width: 360px;
+        height: 500px;
+        /* left: -106px;
+        top: 620px; */
+
+        /* background-color: black; */
+    }
+
+    .vote       {
+        position: absolute;
+    margin-top: 300px;
+    left: 0;
+    margin-left: 10px;
+    /* background-color: black; */
+    color: white;
+    line-height: 40px;
+    /* padding: 20px 20px; */
+}
+
+.vote h5 {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.25);
+    font-family: 'Space Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 10px 10px;
+}
+
+    .vote h4 {
+        font-size: 23px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: 'Space Grotesk', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        padding: 10px 10px;
+    }
+
+    .vote h3 {
+        font-size: 28px;
+        color: rgba(255, 255, 255, 0.75);
+        font-family: 'Space Grotesk', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        padding: 10px 10px;
+    }
+
+    .vote h2 {
+        font-size: 30px;
+        color: #ffffff;
+        font-family: 'Space Grotesk', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        padding: 10px 10px;
+    }
+
+    .resrev     {
+        display: block;
+    }
+
+    .review {
+        width: 100%;
+        margin-top: 630px;
+        margin-left: 6px;
+        position: absolute;
+    }
+    /* .research{
+        display: none;
+    } */
+
+
+    .remarks {
+        margin-left: 0px;
+        /* margin-top: -40px; */
+        text-align: left;
+        color: white;
+        line-height: 26px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 0px 15px;
+    }
+
+    .research img {
+        margin-top: 950px;
+        /* margin-right: 40px; */
+        width: 378px;
+        height: 252.64px;
+        /* background-color: black; */
+    }
+
+    .second-quote {
+        color: rgba(255, 255, 255, 0.1);
+        font-size: 30px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+        font-size: 70px;
+        text-align: right;
+        margin-right: 23px;
+    }
+
+    .first-quote {
+        color: rgba(255, 255, 255, 0.1);
+        font-size: 30px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+        font-size: 70px;
+        margin-bottom: -20px; 
+    }
 }

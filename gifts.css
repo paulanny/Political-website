@@ -50,6 +50,8 @@
     align-items: center;
     justify-content: center;
 }
+
+
 .gifts img  {
     width: 30%;
     margin-top: 120px;
@@ -72,4 +74,79 @@
     font-weight: 700;
     font-family: 'Inter',sans-serif;
     font-size: 16px;
+}
+
+
+@media (min-width:350px) and (max-width:850px) {
+
+    .movement   {
+        background-color: #161D16;
+        height: auto;
+        margin-top: -182px;
+        position: relative;
+        padding: 40px 0px;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .movement h3 {
+        margin: 15px auto;
+        color: white;
+        /* position: absolute; */
+        text-align: center;
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-family: 'Space Grotesk', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        padding: 0px 20px;
+    }
+
+    .movement p     {
+    
+        color: white;
+        /* position: absolute; */
+        text-align: center;
+        margin: 60px auto 0 auto;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        color:  rgba(255, 255, 255, 0.64);
+        ;
+    }
+    
+    .gifts  {
+
+        display: block;
+        /* flex-wrap: wrap; */
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gifts img  {
+        width: 100%;
+        margin-top: 120px;
+        padding: 0px 20px;
+    
+    }
+
+    .movement   button  {
+
+        width: 80%;
+        text-align: center;
+        padding: 20px;
+        background-color:#EA0028;
+        border: 1px solid #EA0028;
+        color: white;
+        margin: 70px auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: 700;
+        font-family: 'Inter',sans-serif;
+        font-size: 16px;
+    }
 }

@@ -46,6 +46,23 @@ nav img  {
     font-weight: 700;
 }
 
+.headbtn    {
+    width: 255px;
+    background-color:#EA0028;
+    border: 1px solid #EA0028;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
  a     {
     padding: 10px;
     justify-content: space-around;
@@ -89,7 +106,7 @@ nav img  {
 
 
 header h2      {
-    margin: 100px auto 0 auto;
+    margin: 30px auto 0 auto;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -103,7 +120,81 @@ header h2      {
 
 }
 
+header h4   {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    width: 35%;
+    margin: auto;
+    line-height: 35.42px;
+}
+
 h2 .change  {
     -webkit-text-stroke: white 3px;
     color: transparent;
+}
+
+@media (max-width:800px) and (min-width:350px)
+{
+    .heroimage  {
+        position: absolute;
+        width: 1487.13px;
+        height: 928px;
+        left: -547px;
+        top: 0px;
+        /* overflow:-moz-hidden-unscrollable; */
+    }
+
+    header  {
+        overflow: hidden;
+    }
+
+    header h2      {
+        margin: 30px auto 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 700;
+        /* width: 385px;
+        height: 183px; */
+        /* left: 21px;
+        top: 211px;         */
+        font-size: 48px;
+        color: white;
+        /* position: absolute; */
+        line-height: 62px;
+       
+    
+    }
+
+    header h4   {
+        font-size: 20px;
+        color: white;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        width: 95%;
+        margin: 20px auto;
+        line-height: 35.42px;
+    }
+
+    .headbtn    {
+        width: 255px;
+        background-color:#EA0028;
+        border: 1px solid #EA0028;
+        color: white;
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 25px auto 300px auto;
+        padding: 14px;
+        font-size: 16px;
+        font-weight: 700;
+    
+    }
 }
