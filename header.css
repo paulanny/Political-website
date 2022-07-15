@@ -28,7 +28,7 @@ nav img  {
 
 .words {
     display: flex;
-    margin-right: 35em;
+    margin-left: 32em;
     /* gap: 30px; */
     
 
@@ -124,16 +124,16 @@ nav img  {
 
 
 header h2      {
-    margin: 30px auto 0 auto;
+    margin: 45px auto 0 auto;
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 700;
-    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    width: 75%;
     font-size: 96px;
     color: white;
-    line-height: 122px;
+    line-height: 145px;
    
 
 }
@@ -193,6 +193,7 @@ h2 .change  {
         width: 50%;
         text-align: center;
         transition: 0.3s;
+        margin-left: 0em;
     }
 
     .words.active {
@@ -234,7 +235,7 @@ h2 .change  {
         text-align: center;
         align-items: center;
         justify-content: center;
-        font-family: 'Space Grotesk', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-weight: 700;
         /* width: 385px;
         height: 183px; */
