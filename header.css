@@ -17,8 +17,15 @@ nav {
     display: flex;
     padding: 50px;
     
-   
+}
 
+
+.nav-link:hover {
+    transition: 1s ease-out;
+    color: rgba(22, 29, 22, 1);
+    background-color: white;
+    padding: 16px;
+    border-radius:3px;
 }
 
 nav img  {
@@ -28,8 +35,10 @@ nav img  {
 
 .words {
     display: flex;
-    margin-left: 32em;
-    /* gap: 30px; */
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
     
 
 }
@@ -204,6 +213,8 @@ h2 .change  {
             position: absolute;
             z-index: 1;
     }
+
+    
 
     .nav-link   {
         text-align: left;
