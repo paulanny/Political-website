@@ -6,3 +6,5 @@ function myFunction() {
       navBar.className = "words";
     }
   }
+
+  var headImage = documument.getElementById("head")

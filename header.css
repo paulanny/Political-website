@@ -290,7 +290,19 @@ h2 .change {
     top: 0px;
     background: rgba(22, 29, 22, 1);
 
+    
+
     /* overflow:-moz-hidden-unscrollable; */
+  }
+
+  .nav-link:hover {
+    transition: 0.01s ease-out;
+    color: rgba(22, 29, 22, 1);
+    background-color: transparent;
+    padding: 12px;
+    border-radius: 6px;
+    /* box-shadow: -1px -1px grey; */
+    border:rgba(22, 29, 22, 1) solid 1px ;
   }
 
   header {
