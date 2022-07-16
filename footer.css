@@ -43,7 +43,7 @@ footer {
   cursor: pointer;
 }
 
-@media (min-width: 350px) and (max-width: 800px) {
+@media (min-width: 280px) and (max-width: 800x) {
   .socials .fa {
     padding: 20px 20px;
     font-size: 16px;

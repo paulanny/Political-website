@@ -6,7 +6,7 @@
 
 .votendimg {
   display: flex;
-  display: relative;
+  /* display: relative; */
   background-color: rgba(22, 29, 22, 1);
   z-index: 1;
   height: 750px;
@@ -95,13 +95,13 @@
 }
 
 .votendimg img {
-  position: absolute;
-  z-index: 1;
-  right: 0;
-  margin-top: -180px;
-  margin-right: 0px;
-  width: 505px;
-  height: 749px;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    margin-top: -187px;
+    margin-right: 0px;
+    width: 450px;
+    height: 735px;
   /* background-color: black; */
 }
 
@@ -109,39 +109,40 @@
   /* position: absolute;
     z-index: 1;
     right: 0; */
-  margin-top: -380px;
+  margin-top: 400px;
   margin-right: 40px;
   /* background-color: black;*/
 }
 
-@media (max-width: 800px) and (min-width: 350px) {
+@media (max-width: 800px) and (min-width: 280px) {
   .votendimg {
     display: block;
     position: relative;
     background-color: rgba(22, 29, 22, 1);
     z-index: 1;
-    height: 1184px;
-    margin-top: 178px;
+    height: 1197px;
+    margin-top: -201px;
     /* justify-content: center;
         align-items: center;
         margin: auto; */
   }
 
-  .votendimg img {
+   .votendimg .Blessingimg {
     position: absolute;
     z-index: 1;
-    right: 0;
-    margin: -255px -15px 0 auto;
+    left: 0;
+    margin: -261px auto 0 auto;
     justify-content: center;
     align-items: center;
-    /* display: flex; */
-    width: 360px;
-    height: 500px;
+    display: flex;
+    width: 329px;
+    height: 522px;
+  
     /* left: -106px;
         top: 620px; */
 
     /* background-color: black; */
-  }
+  } 
 
   .vote {
     position: absolute;
@@ -190,15 +191,17 @@
     padding: 10px 10px;
   }
 
-  .resrev {
-    display: block;
-  }
+  
 
   .review {
     width: 100%;
-    margin-top: 630px;
-    margin-left: 6px;
+    margin: 630px auto 0 auto;
+    /* margin-left: 6px; */
     position: absolute;
+    /* overflow: hidden; */
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px
   }
   /* .research{
         display: none;
@@ -216,12 +219,30 @@
     padding: 0px 15px;
   }
 
+
+
+  .research      {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto 10px auto;
+    width: 100%;
+    height: auto;
+  }
+
+  
+
   .research img {
-    margin-top: 950px;
+    margin: 2200px auto 0 auto;
+    position: absolute;
+    left: 0;
     /* margin-right: 40px; */
-    width: 378px;
-    height: 252.64px;
+    width: 100%;
+    height: auto;
     /* background-color: black; */
+    padding: 10px;
   }
 
   .second-quote {
@@ -242,4 +263,225 @@
     font-size: 70px;
     margin-bottom: -20px;
   }
+}
+
+
+@media (min-width:600px) and (max-width:800px){
+
+  .research img {
+    margin: 2096px auto 0 auto;
+    position: absolute;
+    left: 0;
+    /* margin-right: 40px; */
+    width: 100%;
+    height: 309px;
+    /* background-color: black; */
+    padding: 10px;
+}
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+
+  .votendimg {
+    display: block;
+    position: relative;
+    background-color: rgba(22, 29, 22, 1);
+    z-index: 1;
+    height: 1420px;
+    margin-top: -201px;
+    /* justify-content: center;
+        align-items: center;
+        margin: auto; */
+  }
+
+  .vote h5 {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.25);
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 10px 10px;
+  }
+
+  .vote {
+    position: absolute;
+    margin-top: 470px;
+    left: 0;
+    margin-left: 20px;
+    /* background-color: black; */
+    color: white;
+    line-height: 90px;
+}
+
+.vote h3 {
+  font-size: 34px;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px 10px;
+}
+
+.vote h4 {
+  font-size: 35px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px 10px;
+}
+
+
+.vote h2 {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px 10px;
+  line-height: 77px;
+}
+
+
+.votendimg .Blessingimg {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  margin: -62px auto 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 329px;
+  height: 522px;
+
+  /* left: -106px;
+      top: 620px; */
+
+  /* background-color: black; */
+} 
+
+.research img {
+  margin: 1145px auto 0 auto;
+  position: absolute;
+  left: 0;
+  /* margin-right: 40px; */
+  width: 100%;
+  height: 279px;
+  /* background-color: black; */
+  padding: 10px;
+}
+
+
+.review {
+  width: 60%;
+  margin: 895px auto 0 auto;
+  margin-left: 142px;
+  position: absolute;
+  /* overflow: hidden; */
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+}
+
+
+@media (min-width: 900px) and (max-width: 1200px) {
+.vote {
+  position: absolute;
+  margin-top: 50px;
+  left: 0;
+  margin-left: 30px;
+  /* background-color: black; */
+  color: white;
+  line-height: 90px;
+}
+
+.vote h5 {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.25);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px 10px;
+}
+
+.vote h4 {
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px 10px;
+}
+
+.vote h2 {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px 10px;
+  line-height: 77px;
+}
+
+.vote h3 {
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.vote h4 {
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px 10px;
+}
+
+.votendimg .Blessingimg {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  margin: -71px 25px 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 329px;
+  height: 522px;
+  /* background-color: black; */
+}
+
+.research{
+  overflow: hidden;
+}
+
+.research img {
+  margin-top: 597px;
+  position: absolute;
+  left: 0px;
+  margin-left: 541px;
+  width: 40%;
+  height: 242px;
+  padding: 10px;
+}
+
+.review {
+  width: 50%;
+  margin-top: 473px;
+  margin-left: 31px;
+}
+
+.remarks {
+  margin-left: 40px;
+  margin-top: -40px;
+  text-align: left;
+  color: white;
+  line-height: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
 }
