@@ -10,7 +10,7 @@
   background-color: rgba(22, 29, 22, 1);
   z-index: 1;
   height: 750px;
-  margin-top: 110px;
+  margin-top: 40px;
 }
 
 .vote {
@@ -20,7 +20,7 @@
   margin-left: 70px;
   /* background-color: black; */
   color: white;
-  line-height: 70px;
+  line-height: 90px;
 }
 
 .vote h5 {

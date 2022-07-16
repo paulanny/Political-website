@@ -13,15 +13,16 @@ footer {
 }
 
 .socials {
-  display: flex;
-  margin: 0 auto 15px auto;
+    display: flex;
+    margin: 0 auto 45px auto;
+    justify-content: space-between;
+    gap: 60px;
 }
 
-.socials .fa {
-  padding: 25px 25px;
-  font-size: 20px;
-  -webkit-text-stroke: 2px rgba(22, 29, 22, 1);
-  color: transparent;
+.socials img {
+  
+    width: 20px;
+  height: 20px;
   cursor: pointer;
 }
 

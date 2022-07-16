@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
         <link href="https://fonts.googleapis.com/css2?family=
                             Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link href="header.css" rel="stylesheet" type="text/css"/>
         <link href="vote.css" rel="stylesheet" type="text/css"/>
@@ -21,8 +22,8 @@
         <header>
             <nav>
                 <img src="./images/party logo.svg" alt="YPP"/>
-
-                <div class="words">
+            
+                <div class="words" id="wordlinks">
                     <a class="nav-link" href="#">About the Party
                     </a>
 
@@ -30,20 +31,19 @@
                 </div>
 
                 <div class="icons">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-
+                    <img src="./icons/instagram white.svg" alt="instagramicon">
+                    <img src="./icons/twitter white.svg" alt="twittericon">
+                    <img src="./icons/facebook white.svg" alt="facbookicon">
+                    <button class="volunteerbtn"> Volunteer </button>
+              
                     <a href="https://paystack.com/pay/ypp-collection" target="_blank">
                         <button type="submit">Donate</button>
                     </a>
                 </div>
 
-                <div class="hamburger">
-                    <span class="bars"></span>
-                    <span class="bars"></span>
-                    <span class="bars"></span>
-                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
             </nav>
 
             <img class="heroimage" src="./images/hero image.png" alt="hero-image"/>
@@ -165,9 +165,9 @@
 
         <footer>
             <div class="socials">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <img src="./icons/instagram green.svg" alt="instagramicon">
+                <img src="./icons/twitter green.svg" alt="twittericon">
+                <img src="./icons/facebook  green.svg" alt="facbookicon">
             </div>
 
             <div class="endtexts">

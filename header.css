@@ -11,11 +11,12 @@ header {
 nav {
   /* background-color: red; */
   align-items: center;
-  /* justify-content: center; */
+  justify-content: space-between;
   /* width: 100%;
     flex-direction: column; */
   display: flex;
   padding: 50px;
+  position: relative;
 }
 
 .nav-link:hover {
@@ -37,9 +38,13 @@ nav img {
   justify-content: center;
   align-items: center;
   gap: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 
-.icons button {
+/* .icons button {
   width: 100px;
   text-align: center;
   padding: 12px;
@@ -49,22 +54,56 @@ nav img {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 700;
-}
+} */
 
 .headbtn {
-  width: 255px;
+    width: 255px;
+    background-color: #ea0028;
+    border: 1px solid #ea0028;
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+.icons button {
+  width: 100px;
   background-color: #ea0028;
-  border: 1px solid #ea0028;
+  border: 3px solid #ea0028;
   color: white;
   font-family: "Inter", sans-serif;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 25px auto;
-  padding: 14px;
+  /* margin: 25px auto; */
+  padding: 10px;
   font-size: 16px;
   font-weight: 700;
+}
+
+.icons .volunteerbtn   {
+
+        width: 100px;
+        background-color:transparent;
+        border: 1px solid #ea0028;
+        color: white;
+        font-family: "Inter", sans-serif;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: 25px auto; */
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 700;
+      
 }
 
 a {
@@ -79,30 +118,24 @@ a {
   font-weight: 700;
 }
 
-.hamburger {
+ .icon {
   display: none;
   cursor: pointer;
   position: absolute;
   right: 0;
 }
 
-.bars {
-  display: block;
-  width: 25px;
-  height: 3.3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: white;
-}
+
 
 .icons {
-  margin-right: 50px;
-  position: absolute;
-  right: 0;
-  gap: 10px;
-  /* display: flex; */
-  cursor: pointer;
+    /* margin-right: 50px; */
+    /* position: absolute; */
+    right: 0;
+    gap: 15px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
 }
 
 .heroimage {
@@ -114,12 +147,14 @@ a {
   background: rgba(22, 29, 22, 1);
 }
 
-.icons .fa {
+
+.icons img {
   justify-content: space-around;
-  padding: 20px;
-  font-size: 16px;
-  -webkit-text-stroke: white 0.5px;
-  color: transparent;
+  /* padding: 20px; */
+  /* font-size: 16px; */
+  fill: white;
+  width: 18px;
+  height: 18px;
 }
 
 header h2 {
@@ -129,7 +164,7 @@ header h2 {
   justify-content: center;
   font-family: "Poppins", sans-serif;
   font-weight: 900;
-  width: 75%;
+  width: 85%;
   font-size: 96px;
   color: white;
   line-height: 145px;
@@ -151,55 +186,70 @@ h2 .change {
   color: transparent;
 }
 
+
+
 @media (max-width: 800px) and (min-width: 350px) {
-  .hamburger {
+ 
+
+ 
+
+  nav {
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-between;
+    /* width: 100%;
+      flex-direction: column; */
+    display: flex;
+    padding: 15px;
+    position: relative;
+  }
+
+  .icon {
     display: block;
-    margin-right: 15px;
+    cursor: pointer;
     position: absolute;
-    z-index: 1;
+    right: 0;
+    font-size: 25px;
   }
 
-  .hamburger.active .bars:nth-child(2) {
-    opacity: 0;
-    /* position: absolute;
-         z-index: 3; */
-  }
-
-  .hamburger.active .bars:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-    /* position: absolute;
-        z-index: 3; */
-  }
-
-  .hamburger.active .bars:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-    /* position: absolute;
-        z-index: 2; */
-  }
+  
 
   .words {
-    position: fixed;
+    position: absolute;
     right: 100%;
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: rgba(22, 29, 22, 1);
+    background-color: white;
     width: 50%;
     text-align: center;
     transition: 0.3s;
     margin-left: 0em;
+    display: block;
   }
 
   .words.active {
-    left: 191px;
-    height: 137px;
-    margin-top: -4px;
-    position: absolute;
-    z-index: 1;
+   position: relative;
+  }
+
+  
+
+  nav.active .icon {
+
+        position: absolute;
+        right: 0;
+        top: 0;
+      
+  }
+
+  .words.active a {
+    display: block;
+    text-align: left;
   }
 
   .nav-link {
     text-align: left;
+    color: rgba(22, 29, 22, 1);
   }
 
   .heroimage {
@@ -217,7 +267,7 @@ h2 .change {
     overflow: hidden;
   }
 
-  .icons .fa {
+  .icons img {
     display: none;
   }
 
@@ -279,22 +329,9 @@ h2 .change {
     
 }
 
-.hamburger      {
-    display: none;
-     cursor: pointer;
-     position: absolute;
-     right: 0;
- }
+
  
- .bars    {
-     display: block;
-     width: 25px;
-     height: 3.3px;
-     margin: 5px auto;
-     -webkit-transition: all 0.3s ease-in-out;
-     transition: all 0.3s ease-in-out;
-     background-color: white;
- }
+ 
  
 
 .icons      {
@@ -307,178 +344,17 @@ h2 .change {
 
 }
 
-.heroimage  {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    z-index: -1;
-}
 
-.icons .fa     {
-    justify-content: space-around;
-    padding: 20px;
-    font-size: 16px;
-    -webkit-text-stroke: white 0.5px;
-    color: transparent;
-    
-}
+.icons .volunteerbtn     {
+    display: none;
+  }
 
 
-
-header h2      {
-    margin: 45px auto 0 auto;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    width: 80%;
-    font-size: 96px;
-    color: white;
-    line-height: 145px;
-   
-
-}
-
-header h4   {
-    font-size: 22px;
-    color: white;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: 500;
-    width: 35%;
-    margin: auto;
-    line-height: 35.42px;
-}
 
 h2 .change  {
-    -webkit-text-stroke: white 3px;
+    -webkit-text-stroke: white 2px;
     color: transparent;
 }
 
-@media (max-width:800px) and (min-width:350px)
-{
-
-    .hamburger      {
-        display: block;
-        margin-right: 15px;
-        position: absolute;
-        z-index: 1;
-     }
-
-     .hamburger.active .bars:nth-child(2){
-         opacity: 0;
-         /* position: absolute;
-         z-index: 3; */
-        
-     }
-
-     .hamburger.active .bars:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-        /* position: absolute;
-        z-index: 3; */
-    }
-
-    .hamburger.active .bars:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-        /* position: absolute;
-        z-index: 2; */
-    }
-
-    .words  {
-        position: fixed;
-        right: 100%;
-        top: 70px;
-        gap: 0;
-        flex-direction: column;
-        background-color:rgba(22, 29, 22, 1);
-        width: 50%;
-        text-align: center;
-        transition: 0.3s;
-        margin-left: 0em;
-    }
-
-    .words.active {
-
-            left: 191px;
-            height: 137px;
-            margin-top: -4px;
-            position: absolute;
-            z-index: 1;
-    }
-
-    
-
-    .nav-link   {
-        text-align: left;
-    }
-   
-
-
-
-    .heroimage  {
-        position: absolute;
-        width: 1487.13px;
-        height: 928px;
-        left: -547px;
-        top: 0px;
-        /* overflow:-moz-hidden-unscrollable; */
-    }
-
-    header  {
-        overflow: hidden;
-    }
-
-    .icons .fa     {
-       display: none;
-        
-    }
-
-    header h2      {
-        margin: 30px auto 0 auto;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Poppins', sans-serif;
-        font-weight: 700;
-        /* width: 385px;
-        height: 183px; */
-        /* left: 21px;
-        top: 211px;         */
-        font-size: 48px;
-        color: white;
-        /* position: absolute; */
-        line-height: 62px;
-       
-    
-    }
-
-    header h4   {
-        font-size: 20px;
-        color: white;
-        text-align: center;
-        font-family: 'Inter', sans-serif;
-        font-weight: 500;
-        width: 95%;
-        margin: 20px auto;
-        line-height: 35.42px;
-    }
-
-    .headbtn    {
-        width: 255px;
-        background-color:#EA0028;
-        border: 1px solid #EA0028;
-        color: white;
-        font-family: 'Inter', sans-serif;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 25px auto 300px auto;
-        padding: 14px;
-        font-size: 16px;
-        font-weight: 700;
-    
-    }
 }
+

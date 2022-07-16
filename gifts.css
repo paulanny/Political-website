@@ -7,7 +7,7 @@
 .movement   {
     background-color: #161D16;
     height: auto;
-    margin-top: 70px;
+    margin-top: -55px;
     position: relative;
     padding: 55px;
     justify-content: center;
@@ -38,7 +38,7 @@
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 56px;
+    font-size: 55px;
 }
 
 
@@ -82,7 +82,7 @@
     .movement   {
         background-color: #161D16;
         height: auto;
-        margin-top: -182px;
+        margin-top: -255px;
         position: relative;
         padding: 40px 0px;
         justify-content: center;
