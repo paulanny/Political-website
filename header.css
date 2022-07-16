@@ -35,8 +35,8 @@ nav img {
 .words {
   display: flex;
   margin: auto;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   gap: 40px;
   position: absolute;
   top: 50%;
@@ -88,7 +88,7 @@ nav img {
   font-weight: 700;
 }
 
-.icons .volunteerbtn   {
+.words .volunteerbtn   {
 
         width: 100px;
         background-color:transparent;
@@ -201,7 +201,7 @@ h2 .change {
       flex-direction: column; */
     display: flex;
     padding: 15px;
-    position: relative;
+    /* position: relative; */
   }
 
   .icon {
@@ -209,28 +209,58 @@ h2 .change {
     cursor: pointer;
     position: absolute;
     right: 0;
-    font-size: 25px;
+    font-size: 20px;
+    /* color: rgba(22, 29, 22, 1); */
   }
 
   
 
   .words {
-    position: absolute;
-    right: 100%;
-    top: 70px;
+    position: fixed;
+    /* right: 100%; */
+    top: 160px;
     gap: 0;
     flex-direction: column;
     background-color: white;
     width: 50%;
-    text-align: center;
-    transition: 0.3s;
-    margin-left: 0em;
-    display: block;
+    /* text-align: center; */
+    /* transition: 0.3s; */
+    margin-left: 25em;
+    /* display: block; */
+    /* justify-content: left;
+    align-items: center; */
   }
 
   .words.active {
-   position: relative;
-  }
+    position: fixed;
+    margin-left: 6em;
+    top: 160px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255/var(--tw-bg-opacity));
+    transition: 0.08s ease-in-out;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+.words .volunteerbtn   {
+
+    width: 180px;
+    background-color:rgba(22, 29, 22, 1);
+    border: 1px solid rgba(22, 29, 22, 1);
+    color: white;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+  
+}
+
 
   
 
