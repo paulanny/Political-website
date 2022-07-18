@@ -177,11 +177,23 @@
     }
 }
 
-@media (min-width:800px) and (max-width:950px){
+@media (min-width:800px) and (max-width:1200px){
 .movement {
     background-color: #161D16;
     height: auto;
     margin-top: -484px;
+    position: relative;
+    padding: 40px 0px;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media (min-width: 1000px) and (max-width: 1200px){
+.movement {
+    background-color: #161D16;
+    height: auto;
+    margin-top: -200px;
     position: relative;
     padding: 40px 0px;
     justify-content: center;

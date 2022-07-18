@@ -380,3 +380,17 @@ h1 .pressy  {
     /* width: 55%; */
 }
 }
+
+@media (min-width:1024px) and (max-width:1050px){
+.aboutourparty .learn   {
+    width: 85%;
+}
+
+.aboutourparty .make    {
+    width: 85%;
+}
+
+.aboutourparty .join    {
+    width: 85%;
+}
+}

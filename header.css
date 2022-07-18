@@ -460,3 +460,32 @@ header h4 {
 
 }
 
+
+@media (min-width:750px) and (max-width:870px){
+.words.active {
+  position: fixed;
+  width: 230px;
+  margin-left: 23em;
+  top: 160px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255/var(--tw-bg-opacity));
+  transition: 0.08s ease-in-out;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+
+.words {
+  position: fixed;
+  /* right: 100%; */
+  top: 160px;
+  gap: 0;
+  flex-direction: column;
+  background-color: white;
+  width: 50%;
+  /* text-align: center; */
+  /* transition: 0.3s; */
+  margin-left: 60em;
+  /* display: block; */
+  /* display: none; */
+}
+}

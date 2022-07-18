@@ -151,3 +151,34 @@
 }
 }
 
+@media (min-width:1000px) and (max-width:1200px){
+  .endsarsspirit .endsarstexts {
+    margin: -769px auto 236px auto;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 18px;
+}
+}
+
+
+@media (min-width:280px) and (max-width:358px){
+.endsarstexts h3 {
+  background-color: #161d16;
+  text-align: left;
+  color: white;
+  padding: 12px;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.endsarsspirit .endsarstexts {
+  margin: -727px auto 382px auto;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  /* padding: 0 20px 0 60px; */
+}
+}

@@ -43,7 +43,7 @@ footer {
   cursor: pointer;
 }
 
-@media (min-width: 280px) and (max-width: 800x) {
+@media (min-width: 361px) and (max-width: 800px) {
   .socials .fa {
     padding: 20px 20px;
     font-size: 16px;
@@ -60,4 +60,16 @@ footer {
     color: rgba(22, 29, 22, 1);
     cursor: pointer;
   }
+}
+
+
+@media (min-width: 280px) and (max-width: 361px) {
+.endtexts p {
+  padding: 0 10px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: rgba(22, 29, 22, 1);
+  cursor: pointer;
+}
 }

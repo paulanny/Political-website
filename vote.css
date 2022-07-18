@@ -485,3 +485,49 @@
   font-size: 12px;
 }
 }
+
+@media (min-width: 250px) and (max-width: 350px) {
+.votendimg .Blessingimg {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  margin: -261px auto 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 80%;
+  height: auto;
+  /* background-color: black; */
+}
+
+
+
+}
+
+
+@media (min-width: 250px) and (max-width: 350px) {
+  .vote {
+    position: absolute;
+    margin-top: 149px;
+    left: 0;
+    margin-left: 10px;
+    /* background-color: black; */
+    color: white;
+    line-height: 40px;
+    /* padding: 20px 20px; */
+  }
+
+}
+
+
+@media (min-width: 1024px) and (max-width: 1050px) {
+.research img {
+  margin-top: 597px;
+  position: absolute;
+  left: 0px;
+  margin-left: 612px;
+  width: 40%;
+  height: 242px;
+  padding: 10px;
+}
+}
