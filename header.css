@@ -54,6 +54,9 @@ nav img {
   left: 50%;
   transform: translate(-50%, -50%)
 }
+.dropdown {
+  display: none;
+}
 @media screen and (max-width: 1200px) {
   .words {
     display: none;
@@ -64,6 +67,45 @@ nav img {
   .menu-btn img {
     height: 40px;
     width: 40px;
+  }
+  .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    width: 100%;
+    max-width: 400px;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: white;
+    width: 100%;
+    height: 100%;
+    z-index: 183838;
+    box-shadow: 0 10px 15px -3px #0000001a,0 4px 6px -4px #0000001a;
+    padding: 96px 40px;
+    right: -400px;
+  }
+
+  .dropdown a {
+    color: #343434;
+    display: block;
+    font-size: 20px;
+    margin: 14px 0;
+    padding: 12px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .close {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+
+  .close img {
+    height: 32px;
+    width: 32px;
   }
 }
 
@@ -189,7 +231,8 @@ a {
 
 .heroimage {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -270,7 +313,7 @@ header {
   .icon {
     display: block;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     font-size: 20px;
     /* color: #121212; */
@@ -425,7 +468,7 @@ header {
 
 }
 
- a     {
+a     {
     padding: 10px;
     justify-content: space-around;
     text-decoration: none;
@@ -440,16 +483,13 @@ header {
 
 
 
-
-
-
 .icons      {
-    margin-right: 50px;
-    position: absolute;
+    /* margin-right: 50px;
+    position: absolute; */
     right: 0;
     gap: 10px;
     /* display: flex; */
-    cursor: pointer;
+    /* cursor: pointer; */
 
 }
 

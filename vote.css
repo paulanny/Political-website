@@ -389,7 +389,7 @@
 
 @media (min-width: 900px) and (max-width: 1200px) {
   .vote {
-    position: absolute;
+    /* position: absolute; */
     margin-top: 50px;
     left: 0;
     margin-left: 30px;
@@ -444,10 +444,10 @@
   }
 
   .votendimg .Blessingimg {
-    position: absolute;
+    position: relative;
     z-index: 1;
     left: 0;
-    margin: -71px 25px 0 auto;
+    /* margin: -71px 25px 0 auto; */
     justify-content: center;
     align-items: center;
     display: flex;
