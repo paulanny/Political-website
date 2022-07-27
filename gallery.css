@@ -1,3 +1,25 @@
 body {
   background: #121212;
 }
+
+.banners {
+  display: flex;
+  margin: 40px 120px;
+  max-width: 1272px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.banners img {
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.left,
+.right {
+  width: 48%;
+}
+
+.right {
+  margin-top: 144px;
+}
