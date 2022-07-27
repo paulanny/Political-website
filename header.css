@@ -32,6 +32,13 @@ nav img {
   width: 90px;
 }
 
+@media screen and (max-width: 640px) {
+  nav img {
+    height: 64px;
+    width: 64px;
+  }
+}
+
 .words {
   display: flex;
   margin: auto;
@@ -89,6 +96,12 @@ nav img {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 800px) {
+  .icons button {
+    font-size: 14px;
+    padding: 14px 64px;
+  }
+}
 .words .volunteerbtn   {
 
         width: 100px;

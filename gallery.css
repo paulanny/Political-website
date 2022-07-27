@@ -2,10 +2,14 @@ body {
   background: #121212;
 }
 
+header {
+  min-height: unset;
+}
+
 .banners {
   display: flex;
   padding: 40px 120px;
-  max-width: 1440gggpx;
+  max-width: 1440px;
   margin: 0 auto;
   justify-content: space-between;
 }
@@ -22,4 +26,46 @@ body {
 
 .right {
   margin-top: 144px;
+}
+
+@media screen and (max-width: 1200px) {
+  .banners {
+    padding: 20px 80px;
+  }
+
+  .banners img {
+    margin-bottom: 80px;
+  }
+  .right {
+    margin-top: 72px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .banners {
+    padding: 20px 32px;
+  }
+
+  .banners img {
+    margin-bottom: 40px;
+  }
+  .right {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .banners {
+    padding: 20px 16px;
+    flex-direction: column;
+  }
+
+  .banners img {
+    margin-bottom: 40px;
+  }
+  .left,
+  .right {
+    margin-top: 0px;
+    width: 100%;
+  }
 }
