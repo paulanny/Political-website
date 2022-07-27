@@ -145,7 +145,7 @@
   object-fit: cover;
 }
 
-@media (max-width: 800px) and (min-width: 280px) {
+/* @media (max-width: 800px) and (min-width: 280px) {
   .votendimg {
     display: block;
     position: relative;
@@ -153,9 +153,6 @@
     z-index: 1;
     height: 1197px;
     margin-top: -201px;
-    /* justify-content: center;
-        align-items: center;
-        margin: auto; */
   }
 
   .votendimg .Blessingimg {
@@ -168,22 +165,14 @@
     display: flex;
     width: 329px;
     height: 522px;
-
-    /* left: -106px;
-        top: 620px; */
-
-    /* background-color: black; */
   }
 
   .vote {
-    /* position: absolute; */
-    margin-top: 300px;
+    margin-top: 80px;
     left: 0;
     margin-left: 10px;
-    /* background-color: black; */
     color: white;
     line-height: 40px;
-    /* padding: 20px 20px; */
   }
 
   .vote h5 {
@@ -224,21 +213,15 @@
 
   .review {
     width: 100%;
-    margin: 630px auto 0 auto;
-    /* margin-left: 6px; */
-    position: absolute;
-    /* overflow: hidden; */
+
     justify-content: center;
     align-items: center;
     padding: 0px 10px;
   }
-  /* .research{
-        display: none;
-    } */
+
 
   .remarks {
     margin-left: 0px;
-    /* margin-top: -40px; */
     text-align: left;
     color: white;
     line-height: 26px;
@@ -263,10 +246,8 @@
     margin: 2200px auto 0 auto;
     position: absolute;
     left: 0;
-    /* margin-right: 40px; */
     width: 100%;
     height: auto;
-    /* background-color: black; */
     padding: 10px;
   }
 
@@ -288,12 +269,12 @@
     font-size: 70px;
     margin-bottom: -20px;
   }
-}
+} */
 
 @media (min-width: 600px) and (max-width: 800px) {
   .research img {
-    margin: 2096px auto 0 auto;
-    position: absolute;
+    /* margin: 2096px auto 0 auto; */
+    /* position: absolute; */
     left: 0;
     /* margin-right: 40px; */
     width: 100%;
@@ -303,14 +284,14 @@
   }
 }
 
-@media (min-width: 800px) and (max-width: 900px) {
+@media (max-width: 900px) {
   .votendimg {
     display: block;
     position: relative;
     background-color: #121212;
     z-index: 1;
-    height: 1420px;
-    margin-top: -201px;
+    /* height: 1420px; */
+    /* margin-top: -201px; */
     /* justify-content: center;
         align-items: center;
         margin: auto; */
@@ -326,10 +307,12 @@
   }
 
   .vote {
-    position: absolute;
-    margin-top: 470px;
+    /* position: absolute; */
+    /* margin-top: 470px; */
+    margin-top: 0;
+    margin-left: 0;
     left: 0;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     /* background-color: black; */
     color: white;
     line-height: 90px;
@@ -364,7 +347,8 @@
   }
 
   .votendimg .Blessingimg {
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
     z-index: 1;
     left: 0;
     margin: -62px auto 0 auto;
@@ -393,9 +377,9 @@
 
   .review {
     width: 60%;
-    margin: 895px auto 0 auto;
-    margin-left: 142px;
-    position: absolute;
+    /* margin: 895px auto 0 auto; */
+    /* margin-left: 142px; */
+    /* position: absolute; */
     /* overflow: hidden; */
     justify-content: center;
     align-items: center;
@@ -541,5 +525,15 @@
     width: 40%;
     height: 242px;
     padding: 10px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .review-section {
+    padding: 0 40px;
+    flex-direction: column;
+  }
+  .review-section > * {
+    width: 100%;
   }
 }
