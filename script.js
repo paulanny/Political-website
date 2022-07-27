@@ -1,10 +1,10 @@
 function myFunction() {
-    var navBar = document.getElementById("wordlinks");
-    if (navBar.className === "words") {
-      navBar.className += " active";
-    } else {
-      navBar.className = "words";
-    }
+  var navBar = document.getElementById("wordlinks");
+  if (navBar.className === "words") {
+    navBar.className += " active";
+  } else {
+    navBar.className = "words";
   }
+}
 
-  var headImage = documument.getElementById("head")
+var headImage = document.getElementById("head");
