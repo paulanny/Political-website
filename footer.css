@@ -41,7 +41,7 @@ footer {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  color: rgba(22, 29, 22, 1);
+  color: #121212;
   cursor: pointer;
 }
 
@@ -49,7 +49,7 @@ footer {
   .socials .fa {
     padding: 20px 20px;
     font-size: 16px;
-    -webkit-text-stroke: 1px rgba(22, 29, 22, 1);
+    -webkit-text-stroke: 1px #121212;
     color: transparent;
     cursor: pointer;
   }
@@ -59,7 +59,7 @@ footer {
     font-size: 14px;
     font-family: "Inter", sans-serif;
     font-weight: 700;
-    color: rgba(22, 29, 22, 1);
+    color: #121212;
     cursor: pointer;
   }
 }
@@ -70,7 +70,7 @@ footer {
     font-size: 14px;
     font-family: "Inter", sans-serif;
     font-weight: 700;
-    color: rgba(22, 29, 22, 1);
+    color: #121212;
     cursor: pointer;
   }
 }

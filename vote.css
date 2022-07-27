@@ -7,20 +7,21 @@
 .votendimg {
   display: flex;
   /* display: relative; */
-  background-color: rgba(22, 29, 22, 1);
+  background-color: #121212;
   z-index: 1;
-  height: 750px;
+  /* height: 750px; */
   margin-top: 0px;
 }
 
 .vote {
-  position: absolute;
+  /* position: absolute; */
   margin-top: 50px;
   left: 0;
-  margin-left: 70px;
+  margin-left: 120px;
   /* background-color: black; */
   color: white;
   line-height: 90px;
+  margin-bottom: 50px;
 }
 
 .vote h5 {
@@ -29,6 +30,8 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 24px;
 }
 
 .vote h4 {
@@ -37,6 +40,8 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 24px;
 }
 
 .vote h3 {
@@ -45,6 +50,8 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 24px;
 }
 
 .vote h2 {
@@ -53,12 +60,23 @@
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 24px;
+}
+
+.review-section {
+  background: #121212;
+  display: flex;
+  justify-content: center;
+  padding: 0 120px;
+  position: relative;
+  z-index: 229;
 }
 
 .review {
-  width: 30%;
-  margin-top: 420px;
-  margin-left: 70px;
+  /* width: 30%; */
+  /* margin-top: 420px; */
+  /* margin-left: 70px; */
 }
 
 .remarks {
@@ -97,11 +115,11 @@
 .votendimg img {
   position: absolute;
   z-index: 1;
-  right: 0;
-  margin-top: -187px;
+  right: 72px;
+  margin-top: -380px;
   margin-right: 0px;
   width: 450px;
-  height: 735px;
+  height: 800px;
   /* background-color: black; */
 }
 
@@ -114,11 +132,15 @@
   /* background-color: black;*/
 }
 
+.votendimg .Blessingimg {
+  object-fit: cover;
+}
+
 @media (max-width: 800px) and (min-width: 280px) {
   .votendimg {
     display: block;
     position: relative;
-    background-color: rgba(22, 29, 22, 1);
+    background-color: #121212;
     z-index: 1;
     height: 1197px;
     margin-top: -201px;
@@ -145,7 +167,7 @@
   }
 
   .vote {
-    position: absolute;
+    /* position: absolute; */
     margin-top: 300px;
     left: 0;
     margin-left: 10px;
@@ -276,7 +298,7 @@
   .votendimg {
     display: block;
     position: relative;
-    background-color: rgba(22, 29, 22, 1);
+    background-color: #121212;
     z-index: 1;
     height: 1420px;
     margin-top: -201px;
