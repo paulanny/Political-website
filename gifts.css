@@ -1,202 +1,183 @@
-*       {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.movement   {
-    background-color: #161D16;
+.movement {
+  background-color: #161d16;
+  height: auto;
+  margin-top: -55px;
+  position: relative;
+  padding: 55px;
+  justify-content: center;
+  align-items: center;
+}
+
+.movement p {
+  color: white;
+  /* position: absolute; */
+  text-align: center;
+  margin: 60px auto 0 auto;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+.movement h3 {
+  margin: 15px auto;
+  color: white;
+  /* position: absolute; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.gifts {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.gifts img {
+  width: 30%;
+  margin-top: 120px;
+}
+
+.movement button {
+  width: 20%;
+  text-align: center;
+  padding: 15px;
+  background-color: #ea0028;
+  border: 1px solid #ea0028;
+  color: white;
+  margin: 70px auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+@media (min-width: 280px) and (max-width: 800px) {
+  .movement {
+    background-color: #161d16;
     height: auto;
-    margin-top: -55px;
+    margin-top: -255px;
     position: relative;
-    padding: 55px;
+    padding: 40px 0px;
     justify-content: center;
     align-items: center;
-   
-}
+  }
 
-.movement p     {
-    
-    color: white;
-    /* position: absolute; */
-    text-align: center;
-    margin: 60px auto 0 auto;
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    color:  rgba(255, 255, 255, 0.64);
-    ;
-}
-
-.movement h3    {
+  .movement h3 {
     margin: 15px auto;
     color: white;
     /* position: absolute; */
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Poppins', sans-serif;
+    /* justify-content: center; */
+    /* align-items: center; */
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
-}
+    font-size: 28px;
+    padding: 0px 20px;
+  }
 
+  .movement p {
+    color: white;
+    /* position: absolute; */
+    text-align: center;
+    margin: 60px auto 0 auto;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.64);
+  }
 
-.gifts  {
-
-    display: flex;
-    flex-wrap: wrap;
+  .gifts {
+    display: block;
+    /* flex-wrap: wrap; */
     margin: auto;
     align-items: center;
     justify-content: center;
-}
+  }
 
+  .gifts img {
+    width: 100%;
+    margin-top: 56px;
+    padding: 0px 20px;
+  }
 
-.gifts img  {
-    width: 30%;
-    margin-top: 120px;
-
-}
-
-
-.movement   button  {
-
-    width: 20%;
+  .movement button {
+    width: 80%;
     text-align: center;
-    padding: 15px;
-    background-color:#EA0028;
-    border: 1px solid #EA0028;
+    padding: 20px;
+    background-color: #ea0028;
+    border: 1px solid #ea0028;
     color: white;
     margin: 70px auto;
     justify-content: center;
     align-items: center;
     display: flex;
     font-weight: 700;
-    font-family: 'Inter',sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
+  }
 }
 
-
-@media (min-width:280px) and (max-width:800px) {
-
-    .movement   {
-        background-color: #161D16;
-        height: auto;
-        margin-top: -255px;
-        position: relative;
-        padding: 40px 0px;
-        justify-content: center;
-        align-items: center;
-       
-    }
-
-    .movement h3 {
-        margin: 15px auto;
-        color: white;
-        /* position: absolute; */
-        text-align: center;
-        /* justify-content: center; */
-        /* align-items: center; */
-        font-family: 'Poppins', sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 28px;
-        padding: 0px 20px;
-    }
-
-    .movement p     {
-    
-        color: white;
-        /* position: absolute; */
-        text-align: center;
-        margin: 60px auto 0 auto;
-        font-family: 'Inter', sans-serif;
-        font-size: 14px;
-        font-weight: 700;
-        color:  rgba(255, 255, 255, 0.64);
-        ;
-    }
-    
-    .gifts  {
-
-        display: block;
-        /* flex-wrap: wrap; */
-        margin: auto;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .gifts img  {
-        width: 100%;
-        margin-top: 120px;
-        padding: 0px 20px;
-    
-    }
-
-    .movement   button  {
-
-        width: 80%;
-        text-align: center;
-        padding: 20px;
-        background-color:#EA0028;
-        border: 1px solid #EA0028;
-        color: white;
-        margin: 70px auto;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        font-weight: 700;
-        font-family: 'Inter',sans-serif;
-        font-size: 16px;
-    }
-}
-
-
-@media (min-width:350px) and (max-width:600px){
-
-.movement {
-    background-color: #161D16;
+@media (min-width: 350px) and (max-width: 600px) {
+  .movement {
+    background-color: #161d16;
     height: auto;
     margin-top: -406px;
     position: relative;
     padding: 40px 0px;
     justify-content: center;
     align-items: center;
-}
-}
-
-@media (min-width:600px) and (max-width:800px){
-    .movement {
-        background-color: #161D16;
-        height: auto;
-        margin-top: -271px;
-        position: relative;
-        padding: 40px 0px;
-        justify-content: center;
-        align-items: center;
-    }
+  }
 }
 
-@media (min-width:800px) and (max-width:1200px){
-.movement {
-    background-color: #161D16;
+@media (min-width: 600px) and (max-width: 800px) {
+  .movement {
+    background-color: #161d16;
+    height: auto;
+    margin-top: -271px;
+    position: relative;
+    padding: 40px 0px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .movement {
+    background-color: #161d16;
     height: auto;
     margin-top: -484px;
     position: relative;
     padding: 40px 0px;
     justify-content: center;
     align-items: center;
-}
+  }
 }
 
-@media (min-width: 1000px) and (max-width: 1200px){
-.movement {
-    background-color: #161D16;
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .movement {
+    background-color: #161d16;
     height: auto;
     margin-top: -200px;
     position: relative;
     padding: 40px 0px;
     justify-content: center;
     align-items: center;
-}
+  }
 }

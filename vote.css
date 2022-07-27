@@ -286,7 +286,8 @@
 
 @media (max-width: 900px) {
   .votendimg {
-    display: block;
+    display: flex;
+    flex-direction: column-reverse;
     position: relative;
     background-color: #121212;
     z-index: 1;
@@ -303,7 +304,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
   }
 
   .vote {
@@ -316,6 +317,10 @@
     /* background-color: black; */
     color: white;
     line-height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .vote h3 {
@@ -324,7 +329,6 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    padding: 10px 10px;
   }
 
   .vote h4 {
@@ -333,7 +337,6 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    padding: 10px 10px;
   }
 
   .vote h2 {
@@ -342,7 +345,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     line-height: 77px;
   }
 
@@ -404,7 +407,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    padding: 10px 10px;
+    margin-bottom: 10px;
   }
 
   .vote h4 {
@@ -413,17 +416,17 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    padding: 10px 10px;
+    margin-bottom: 10px;
   }
 
   .vote h2 {
-    font-size: 25px;
+    font-size: 32px;
     color: #ffffff;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-    padding: 10px 10px;
-    line-height: 77px;
+    line-height: 40px;
+    margin-bottom: 10px;
   }
 
   .vote h3 {
@@ -432,15 +435,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
-  }
-
-  .vote h4 {
-    font-size: 25px;
-    color: rgba(255, 255, 255, 0.5);
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    padding: 10px 10px;
+    margin-bottom: 10px;
   }
 
   .votendimg .Blessingimg {
@@ -453,7 +448,7 @@
     display: flex;
     width: 329px;
     height: 522px;
-    margin-top: -280px;
+    margin-top: -240px;
     /* background-color: black; */
   }
 
@@ -472,20 +467,28 @@
   }
 
   .review {
-    width: 50%;
-    margin-top: 473px;
-    margin-left: 31px;
+    /* width: 45%; */
+    /* margin-top: 473px; */
+    /* margin-left: 31px; */
   }
 
   .remarks {
-    margin-left: 40px;
-    margin-top: -40px;
+    /* margin-left: 40px; */
+    /* margin-top: -40px; */
     text-align: left;
     color: white;
     line-height: 26px;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .votendimg .Blessingimg {
+    height: 720px;
+    width: 480px;
+    margin-top: -280px;
   }
 }
 
@@ -529,6 +532,15 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .review-section {
+    padding: 0 80px;
+  }
+  .review-section > * {
+    width: 48%;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .review-section {
     padding: 0 40px;
@@ -536,5 +548,68 @@
   }
   .review-section > * {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .vote {
+    padding: 0 32px;
+  }
+  .vote * {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .vote h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .vote h4 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .vote h3 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .vote h2 {
+    font-size: 36px;
+    line-height: 52px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .votendimg .Blessingimg {
+    width: 95%;
+  }
+  .remarks {
+    margin: 64px 24px;
+  }
+  .review-section {
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .votendimg .Blessingimg {
+    height: 560px;
+    margin-top: -240px;
+  }
+  .vote * {
+    margin-bottom: 8px;
+  }
+  .vote h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .vote h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .vote h3 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .vote h2 {
+    font-size: 32px;
+    line-height: 40px;
   }
 }
