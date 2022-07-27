@@ -79,37 +79,43 @@
   /* margin-left: 70px; */
 }
 
-.remarks {
-  margin-left: 40px;
-  /* margin-top: -40px; */
-  text-align: left;
-  color: white;
-  line-height: 26px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-}
-
 .first-quote {
   color: rgba(255, 255, 255, 0.1);
-  font-size: 30px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 96px;
+  position: absolute;
+  top: 0;
+  left: 0;
   /* margin-top: 60px; */
 }
 
 .second-quote {
   color: rgba(255, 255, 255, 0.1);
-  font-size: 30px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  font-size: 70px;
+  font-size: 96px;
   text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* line-height: 96px; */
+}
+
+.review {
+  position: relative;
 }
 
 .research {
   margin-top: -180px;
+}
+
+.remarks {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 161.02%;
+  color: #ffffff;
+  font-family: Inter;
 }
 
 .votendimg img {
