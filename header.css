@@ -104,7 +104,7 @@ nav img {
         font-size: 16px;
         font-weight: 700;
         display: none;
-      
+
 }
 
 .icons .volunteerbtn   {
@@ -122,7 +122,7 @@ nav img {
     padding: 10px;
     font-size: 16px;
     font-weight: 700;
-  
+
 }
 
 
@@ -209,8 +209,8 @@ h2 .change {
 
 
 @media (max-width: 900px) and (min-width: 280px) {
- 
- 
+
+
   nav {
     /* background-color: red; */
     align-items: center;
@@ -231,7 +231,7 @@ h2 .change {
     /* color: rgba(22, 29, 22, 1); */
   }
 
-  
+
 
   .words {
     position: fixed;
@@ -277,7 +277,7 @@ h2 .change {
     font-size: 16px;
     font-weight: 700;
     border-radius: 5px;
-  
+
 }
 
 .icons .volunteerbtn    {
@@ -285,14 +285,14 @@ h2 .change {
 }
 
 
-  
+
 
   nav.active .icon {
 
         position: absolute;
         right: 0;
         top: 0;
-      
+
   }
 
   .words.active a {
@@ -313,7 +313,7 @@ h2 .change {
     top: 0px;
     background: rgba(22, 29, 22, 1);
 
-    
+
 
     /* overflow:-moz-hidden-unscrollable; */
   }
@@ -391,13 +391,13 @@ h2 .change {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
-    
+
 }
 
 
- 
- 
- 
+
+
+
 
 .icons      {
     margin-right: 50px;
@@ -487,5 +487,4 @@ header h4 {
   margin-left: 60em;
   /* display: block; */
   /* display: none; */
-}
 }
