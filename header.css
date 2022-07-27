@@ -161,7 +161,7 @@ a {
 
 .heroimage {
   width: 100%;
-  height: auto;
+  height: 100vh;
   position: absolute;
   top: 0;
   z-index: -1;
@@ -179,7 +179,7 @@ a {
 }
 
 header h2 {
-  margin: 16px auto 0 auto;
+  margin: 24px auto 24px auto;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -222,7 +222,10 @@ h2 .change {
   height: 2px;
 }
 
-
+header {
+  overflow: hidden;
+  min-height: 100vh;
+}
 
 @media (max-width: 900px) and (min-width: 280px) {
 
@@ -345,9 +348,7 @@ h2 .change {
     border:#ea0028 solid 0.51px ;
   }
 
-  header {
-    overflow: hidden;
-  }
+
 
   .icons img {
     display: none;

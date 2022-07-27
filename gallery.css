@@ -4,8 +4,8 @@ body {
 
 .banners {
   display: flex;
-  margin: 40px 120px;
-  max-width: 1272px;
+  padding: 40px 120px;
+  max-width: 1440gggpx;
   margin: 0 auto;
   justify-content: space-between;
 }
