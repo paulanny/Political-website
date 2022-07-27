@@ -71,12 +71,14 @@
   padding: 0 120px;
   position: relative;
   z-index: 229;
+  justify-content: space-between;
 }
 
 .review {
   /* width: 30%; */
   /* margin-top: 420px; */
   /* margin-left: 70px; */
+  width: 45%;
 }
 
 .first-quote {
@@ -116,6 +118,7 @@
   line-height: 161.02%;
   color: #ffffff;
   font-family: Inter;
+  margin: 64px 48px;
 }
 
 .votendimg img {
