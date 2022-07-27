@@ -453,6 +453,7 @@
     display: flex;
     width: 329px;
     height: 522px;
+    margin-top: -280px;
     /* background-color: black; */
   }
 

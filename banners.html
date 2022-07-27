@@ -34,19 +34,31 @@
         </div>
 
         <div class="icons">
-          <!-- <img src="./icons/instagram white.svg" alt="instagramicon">
-                    <img src="./icons/twitter white.svg" alt="twittericon">
-                    <img src="./icons/facebook white.svg" alt="facbookicon">-->
-
-          <button class="volunteerbtn">Volunteer</button>
+          <button class="volunteerbtn btn">Volunteer</button>
           <a href="https://paystack.com/pay/ypp-collection" target="_blank">
-            <button type="submit">Donate</button>
+            <button type="submit " class="btn">Donate</button>
           </a>
+          <button class="menu-btn open">
+            <img src="./icons/menu.svg" alt="Open menu" />
+          </button>
         </div>
 
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+        <section class="dropdown">
+          <button class="menu-btn close">
+            <img src="./icons/Close.svg" alt="Close menu" />
+          </button>
+          <a class="dropdown-link current" href="/">Home</a>
+          <a class="dropdown-link" href="#">About the Party </a>
+          <a class="dropdown-link" href="./banners.html">Banners</a>
+          <button class="volunteerbtn btn">Volunteer</button>
+          <a
+            href="https://paystack.com/pay/ypp-collection"
+            target="_blank"
+            class="donate-btn"
+          >
+            <button class="btn">Donate</button>
+          </a>
+        </section>
       </nav>
     </header>
 
@@ -83,6 +95,6 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

@@ -85,9 +85,10 @@ nav img {
     box-shadow: 0 10px 15px -3px #0000001a,0 4px 6px -4px #0000001a;
     padding: 96px 40px;
     right: -400px;
+    transition: 1s;
   }
 
-  .dropdown a {
+  .dropdown a, .dropdown .volunteerbtn {
     color: #343434;
     display: block;
     font-size: 20px;
@@ -95,6 +96,15 @@ nav img {
     padding: 12px;
     width: 100%;
     text-align: left;
+  }
+
+  .dropdown .btn {
+    border: 1px solid #121212;
+    text-align: center;
+    font-size: 16px;
+    padding: 16px;
+    font-weight: 600;
+    width: 100%;
   }
 
   .close {
@@ -106,6 +116,14 @@ nav img {
   .close img {
     height: 32px;
     width: 32px;
+  }
+  .dropdown .donate-btn {
+    padding: 0;
+  }
+  .dropdown .donate-btn button {
+    background:#ea0028;
+    border: none;
+    color: white;
   }
 }
 
