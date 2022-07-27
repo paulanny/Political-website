@@ -28,8 +28,8 @@ nav {
 }
 
 nav img {
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
 }
 
 .words {
@@ -178,7 +178,7 @@ a {
 }
 
 header h2 {
-  margin: 45px auto 0 auto;
+  margin: 16px auto 0 auto;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -188,6 +188,7 @@ header h2 {
   font-size: 96px;
   color: white;
   line-height: 145px;
+  max-width: 1102px;
 }
 
 header h4 {
