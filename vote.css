@@ -494,10 +494,10 @@
 
 @media (min-width: 250px) and (max-width: 350px) {
   .votendimg .Blessingimg {
-    position: absolute;
+    /* position: absolute; */
     z-index: 1;
     left: 0;
-    margin: -261px auto 0 auto;
+    /* margin: -261px auto 0 auto; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -509,10 +509,10 @@
 
 @media (min-width: 250px) and (max-width: 350px) {
   .vote {
-    position: absolute;
-    margin-top: 149px;
+    /* position: absolute; */
+    /* margin-top: 149px; */
     left: 0;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     /* background-color: black; */
     color: white;
     line-height: 40px;
@@ -596,20 +596,23 @@
   .vote * {
     margin-bottom: 8px;
   }
+  .vote {
+    padding: 0 16px;
+  }
   .vote h5 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .vote h4 {
     font-size: 20px;
     line-height: 28px;
   }
-  .vote h4 {
+  .vote h3 {
     font-size: 24px;
     line-height: 32px;
   }
-  .vote h3 {
+  .vote h2 {
     font-size: 28px;
     line-height: 36px;
-  }
-  .vote h2 {
-    font-size: 32px;
-    line-height: 40px;
   }
 }
