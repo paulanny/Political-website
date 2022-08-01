@@ -19,6 +19,7 @@
     <link href="./css/header.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="./css/gallery.css" />
     <link rel="stylesheet" href="./css/globals.css" />
+    <link rel="stylesheet" href="./css/donations.css" />
   </head>
   <body>
     <header id="head">
@@ -28,7 +29,7 @@
         <div class="words" id="wordlinks">
           <a class="nav-link" href="/">Home</a>
           <a class="nav-link" href="#">About the Party </a>
-          <a class="nav-link current" href="./banners.html">Banners</a>
+          <a class="nav-link" href="./banners.html">Banners</a>
           <button class="volunteerbtn">Volunteer</button>
         </div>
 
@@ -49,7 +50,7 @@
           <button class="menu-btn close">
             <img src="./icons/Close.svg" alt="Close menu" />
           </button>
-          <a class="dropdown-link current" href="/">Home</a>
+          <a class="dropdown-link" href="/">Home</a>
           <a class="dropdown-link" href="#">About the Party </a>
           <a class="dropdown-link" href="./banners.html">Banners</a>
           <button class="volunteerbtn btn">Volunteer</button>
@@ -63,29 +64,25 @@
         </section>
       </nav>
     </header>
+    <div class="loading">
+      <div class="lds-dual-ring"></div>
+    </div>
+    <section class="donations-container">
+      <h3 class="donate-header">Donation history</h3>
+      <p class="donations-count"></p>
 
-    <section class="banners">
-      <div class="left">
-        <img src="./images/gallery/1.jpeg" alt="Banner" />
-        <img src="./images/gallery/15.jpeg" alt="Banner" />
-        <img src="./images/gallery/5.jpeg" alt="Banner" />
-        <img src="./images/gallery/17.jpeg" alt="Banner" />
-        <img src="./images/gallery/3.jpeg" alt="Banner" />
-        <img src="./images/gallery/16.jpeg" alt="Banner" />
-        <img src="./images/gallery/7.jpeg" alt="Banner" />
-        <img src="./images/gallery/9.jpeg" alt="Banner" />
-        <img src="./images/gallery/11.jpeg" alt="Banner" />
-      </div>
-      <div class="right">
-        <img src="./images/gallery/2.jpeg" alt="" />
-        <img src="./images/gallery/4.jpeg" alt="Banner" />
-        <img src="./images/gallery/6.jpeg" alt="Banner" />
-        <img src="./images/gallery/8.jpeg" alt="Banner" />
-        <img src="./images/gallery/18.jpeg" alt="Banner" />
-        <img src="./images/gallery/12.jpeg" alt="Banner" />
-        <img src="./images/gallery/10.jpeg" alt="Banner" />
-        <img src="./images/gallery/19.jpeg" alt="Banner" />
-      </div>
+      <table class="donations-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Amount</th>
+            <th>Bank</th>
+            <th>Channel</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
     </section>
 
     <footer>
@@ -102,6 +99,7 @@
       </div>
     </footer>
 
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js" type="module"></script>
+    <script src="./js/donations.js" type="module"></script>
   </body>
 </html>

@@ -1,0 +1,91 @@
+.loading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.donate-header {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: -100px;
+  color: white;
+  font-family: Inter;
+  margin-bottom: 16px;
+}
+
+footer {
+  display: none;
+}
+
+.donations-container {
+  color: white;
+  display: none;
+}
+
+.donations-count {
+  font-family: Inter;
+  text-align: center;
+  margin-bottom: 40px;
+  opacity: 0.5;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  font-family: Inter, sans-serif;
+}
+
+th {
+  color: #707070;
+  text-align: left;
+  padding: 16px;
+  border-bottom: 1px solid #292929;
+}
+
+td {
+  padding: 24px 16px;
+  /* border-bottom: 1px solid #292929; */
+  border-right: none;
+}
+
+tbody tr:nth-child(2n) td {
+  background: #181818;
+}
+
+.donations-container {
+  padding: 96px;
+}
+
+.donations-table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
